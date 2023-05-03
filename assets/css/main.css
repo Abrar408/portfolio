@@ -2552,7 +2552,10 @@ input, select, textarea {
 		}
 
 /* Work Item */
-
+	.myClass{
+		display: flex;
+		align-items: center;
+	}
 	.work-item {
 		margin: 0 0 2em 0;
 	}
@@ -2562,14 +2565,21 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.2em;
+			font-weight: bolder;
 			margin: 0 0 0.5em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
-			line-height: 1.5em;
+			font-size: 1em;
+			line-height: 1.2em;
 			margin: 0;
+		}
+
+		.work-item span{
+			font-size: larger;
+			font-weight: 500;
+			margin-left: 5px;
 		}
 
 /* Header */
